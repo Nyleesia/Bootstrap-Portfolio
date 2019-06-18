@@ -1,0 +1,32 @@
+/* font styling for class "tabs"  */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* styling for class "tabs"  */
+.tabs {
+    margin-top: 50px;
+    float: left;
+    display: flex;
+    max-width: 50%;
+    justify-content: space-around;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    max-inline-size: 100%;
+    padding: auto;
+    float: right;
+    margin-left: 0px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.tabs div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
